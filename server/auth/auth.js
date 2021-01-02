@@ -27,8 +27,10 @@ router.get(
   '/facebook/callback',
   passport.authenticate('facebook', {
     failureRedirect: '/login',
-    successRedirect: '/home',
-  })
+  }),
+  (req, res) => {
+    res.redirect('/home');
+  }
 );
 
 passport.serializeUser(function (user, done) {

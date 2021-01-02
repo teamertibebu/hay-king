@@ -15,15 +15,15 @@ app.use(passport.session());
 
 const authRoute = require('./auth/auth');
 
+const isLoggedIn = (req, res, next) => {
+  if (req.user) {
+    next();
+  } else {
+    res.redirect('/auth/facebook');
+  }
+};
+
 app.use('/auth', authRoute);
-
-app.get('/home', (req, res) => {
-  res.send('Home Page');
-});
-
-app.get('/login', (req, res) => {
-  res.send('Login Page');
-});
 
 app.listen(PORT, () => {
   console.info(`Connected on http://localhost:${PORT}`);
