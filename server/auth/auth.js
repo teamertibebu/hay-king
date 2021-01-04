@@ -30,7 +30,8 @@ router.get(
   }),
   (req, res) => {
     const newUser = new User({
-      id: Number(req.user.id),
+      id: req.user.id,
+      sex: 'male',
       name: req.user.displayName,
     });
     res.cookie('HayKingId', req.user.id);
