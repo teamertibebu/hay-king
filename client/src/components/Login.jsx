@@ -8,13 +8,13 @@ const Login = () => {
 
   return (
     <div>
-      <h1>Login Page</h1>
+      <h1 id="heading">THE HAY KING</h1>
       <div id="login">
         <a role="button" id="facebook-button" href="/auth/facebook">
-          Login With Facebook
+          Sign in with Facebook
         </a>
         <a role="button" id="google-button" href="/auth/google">
-          Sign in with Other
+          Sign in with Google
         </a>
         <a role="button" id="twitter-button" href="/auth/twitter">
           Sign in with Twitter
