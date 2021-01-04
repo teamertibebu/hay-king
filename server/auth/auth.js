@@ -4,24 +4,19 @@ const router = Router();
 const passport = require('passport');
 const db = require('../db/index');
 const { User } = require('../db/models/User');
-var FacebookStrategy = require('passport-facebook').Strategy;
+var FacebookStrategy = require('./facebookStrategy');
+var TwitterStrategy = require('./twitterStrategy');
+var GoogleStrategy = require('./googleStrategy');
+
 require('dotenv');
-passport.use(
-  new FacebookStrategy(
-    {
-      clientID: process.env.FACEBOOK_APP_ID,
-      clientSecret: process.env.FACEBOOK_APP_SECRET,
-      callbackURL: 'http://localhost:8080/auth/facebook/callback',
-      profileFields: ['email', 'gender', 'displayName', 'name'],
-    },
-    function (accessToken, refreshToken, profile, cb) {
-      // console.log(profile);
-      return cb(null, profile);
-    }
-  )
-);
+
+FacebookStrategy();
+TwitterStrategy();
+GoogleStrategy();
 
 router.get('/facebook', passport.authenticate('facebook'));
+router.get('/twitter', passport.authenticate('twitter'));
+router.get('/google', passport.authenticate('google', { scope: ['profile'] }));
 
 router.get(
   '/facebook/callback',
@@ -31,8 +26,9 @@ router.get(
   (req, res) => {
     const newUser = new User({
       id: req.user.id,
-      sex: 'male',
       name: req.user.displayName,
+      image: req.user.photos[0].value,
+      provider: req.user.provider,
     });
     res.cookie('HayKingId', req.user.id);
 
@@ -47,7 +43,64 @@ router.get(
         });
       }
     });
-    // res.send('Successss');
+  }
+);
+
+router.get(
+  '/twitter/callback',
+  passport.authenticate('twitter', {
+    failureRedirect: '/login',
+  }),
+  (req, res) => {
+    console.log(req.user);
+
+    const newUser = new User({
+      id: req.user.id,
+      name: req.user.displayName,
+      image: req.user.photos[0].value,
+      provider: req.user.provider,
+    });
+    res.cookie('HayKingId', req.user.id);
+
+    User.findOne({ id: newUser.id }).then((data) => {
+      if (data) {
+        res.redirect('/home');
+        userInfo = data;
+      } else {
+        newUser.save().then(() => {
+          userInfo = newUser;
+          res.redirect('/home');
+        });
+      }
+    });
+  }
+);
+
+router.get(
+  '/google/callback',
+  passport.authenticate('google', {
+    failureRedirect: '/login',
+  }),
+  (req, res) => {
+    const newUser = new User({
+      id: req.user.id,
+      name: req.user.displayName,
+      image: req.user.photos[0].value,
+      provider: req.user.provider,
+    });
+    res.cookie('HayKingId', req.user.id);
+
+    User.findOne({ id: newUser.id }).then((data) => {
+      if (data) {
+        res.redirect('/home');
+        userInfo = data;
+      } else {
+        newUser.save().then(() => {
+          userInfo = newUser;
+          res.redirect('/home');
+        });
+      }
+    });
   }
 );
 

@@ -1,0 +1,50 @@
+#facebook-button {
+  background-color: #4e6da6;
+  color: white;
+  transition: 0.5s;
+}
+
+#facebook-button:hover {
+  background-color: #1b499e;
+  margin: 0 -5px 0 -5px;
+}
+
+#twitter-button {
+  background-color: #49aaf0;
+  color: white;
+  transition: 0.5s;
+}
+
+#twitter-button:hover {
+  margin: 0 -5px 0 -5px;
+  background-color: #7dc6fb;
+}
+
+#twitter-button,
+#facebook-button {
+  margin: 10px;
+  /* background-color: #e4e3e3; */
+
+  text-align: center;
+  font-family: Lucida Grande, Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 30px 15px 44px;
+  text-decoration: none;
+  line-height: 1;
+  position: relative;
+  border-radius: 5px;
+}
+
+#twitter-icon {
+  background-image: url('../../dist/sO5Y2aG.png');
+}
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 10px;
+  width: 25%;
+}

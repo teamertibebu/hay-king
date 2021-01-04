@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "compass-mixins": "^0.12.10",
     "cors": "^2.8.5",
     "css-loader": "^5.0.1",
     "dotenv": "^8.2.0",
@@ -21,6 +22,8 @@
     "mongoose": "^5.11.9",
     "passport": "^0.4.1",
     "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-twitter": "^1.0.4",
     "react": "^17.0.1",
     "react-axios": "^2.0.4",
     "react-dom": "^17.0.1",
