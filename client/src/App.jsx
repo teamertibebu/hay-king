@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 import Login from './components/Login';
@@ -8,17 +8,19 @@ import Navbar from './components/Nav';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
+  const [isAuth, setIsAuth] = useState(true);
+
   return (
-    <div>
-      <div>Helloo Woeoeoeoeoeo</div>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" component={Login} />
-          <Route path="/home" component={Home} />
-        </Switch>
-      </Router>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Login />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 

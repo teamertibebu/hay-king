@@ -3,9 +3,9 @@ const { Router } = require('express');
 const router = Router();
 const passport = require('passport');
 const db = require('../db/index');
+const { User } = require('../db/models/User');
 var FacebookStrategy = require('passport-facebook').Strategy;
 require('dotenv');
-
 passport.use(
   new FacebookStrategy(
     {
@@ -15,7 +15,7 @@ passport.use(
       profileFields: ['email', 'gender', 'displayName', 'name'],
     },
     function (accessToken, refreshToken, profile, cb) {
-      console.log(profile);
+      // console.log(profile);
       return cb(null, profile);
     }
   )
@@ -29,7 +29,24 @@ router.get(
     failureRedirect: '/login',
   }),
   (req, res) => {
-    res.redirect('/home');
+    const newUser = new User({
+      id: Number(req.user.id),
+      name: req.user.displayName,
+    });
+    res.cookie('HayKingId', req.user.id);
+
+    User.findOne({ id: newUser.id }).then((data) => {
+      if (data) {
+        res.redirect('/home');
+        userInfo = data;
+      } else {
+        newUser.save().then(() => {
+          userInfo = newUser;
+          res.redirect('/home');
+        });
+      }
+    });
+    // res.send('Successss');
   }
 );
 

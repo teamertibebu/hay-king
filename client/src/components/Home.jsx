@@ -1,9 +1,10 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>Home Page - authenticated</h1>
     </div>
   );
 };
