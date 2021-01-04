@@ -1,7 +1,6 @@
 module.exports = () => {
   const passport = require('passport');
   var TwitterStrategy = require('passport-twitter').Strategy;
-  const { User } = require('../db/models/User');
   require('dotenv');
 
   passport.use(

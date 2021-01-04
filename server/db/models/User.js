@@ -1,14 +1,15 @@
 const { Schema, model } = require('mongoose');
+require('../index');
 
-const UserSchema = new Schema({
+const UsersSchema = new Schema({
   id: 'number',
   name: 'string',
   image: 'string',
   provider: 'string',
 });
 
-const User = model('User', UserSchema);
+const Users = model('Users', UsersSchema);
 
 module.exports = {
-  User,
+  Users,
 };

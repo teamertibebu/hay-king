@@ -1,7 +1,7 @@
 const { Router } = require('express');
 const router = Router();
 const passport = require('passport');
-const { User } = require('../db/models/User');
+const { Users } = require('../db/models/User');
 require('dotenv');
 
 const FacebookStrategy = require('./facebookStrategy');
@@ -11,6 +11,14 @@ const GoogleStrategy = require('./googleStrategy');
 FacebookStrategy();
 TwitterStrategy();
 GoogleStrategy();
+
+passport.serializeUser(function (user, done) {
+  done(null, user);
+});
+
+passport.deserializeUser(function (user, done) {
+  done(null, user);
+});
 
 router.get('/facebook', passport.authenticate('facebook'));
 router.get('/twitter', passport.authenticate('twitter'));
@@ -22,7 +30,7 @@ router.get(
     failureRedirect: '/login',
   }),
   (req, res) => {
-    const newUser = new User({
+    const newUser = new Users({
       id: req.user.id,
       name: req.user.displayName,
       image: req.user.photos[0].value,
@@ -30,13 +38,11 @@ router.get(
     });
     res.cookie('HayKingId', req.user.id);
 
-    User.findOne({ id: newUser.id }).then((data) => {
+    Users.findOne({ id: newUser.id }).then((data) => {
       if (data) {
         res.redirect('/home');
-        userInfo = data;
       } else {
         newUser.save().then(() => {
-          userInfo = newUser;
           res.redirect('/home');
         });
       }
@@ -50,7 +56,7 @@ router.get(
     failureRedirect: '/login',
   }),
   (req, res) => {
-    const newUser = new User({
+    const newUser = new Users({
       id: req.user.id,
       name: req.user.displayName,
       image: req.user.photos[0].value,
@@ -58,7 +64,7 @@ router.get(
     });
     res.cookie('HayKingId', req.user.id);
 
-    User.findOne({ id: newUser.id }).then((data) => {
+    Users.findOne({ id: newUser.id }).then((data) => {
       if (data) {
         res.redirect('/home');
         userInfo = data;
@@ -78,7 +84,7 @@ router.get(
     failureRedirect: '/login',
   }),
   (req, res) => {
-    const newUser = new User({
+    const newUser = new Users({
       id: req.user.id,
       name: req.user.displayName,
       image: req.user.photos[0].value,
@@ -86,7 +92,7 @@ router.get(
     });
     res.cookie('HayKingId', req.user.id);
 
-    User.findOne({ id: newUser.id }).then((data) => {
+    Users.findOne({ id: newUser.id }).then((data) => {
       if (data) {
         res.redirect('/home');
         userInfo = data;
@@ -99,13 +105,5 @@ router.get(
     });
   }
 );
-
-passport.serializeUser(function (user, done) {
-  done(null, user);
-});
-
-passport.deserializeUser(function (user, done) {
-  done(null, user);
-});
 
 module.exports = router;
