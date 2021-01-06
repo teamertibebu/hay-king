@@ -1,12 +1,15 @@
 const { Router } = require('express');
+
 const router = Router();
 const passport = require('passport');
 const { Users } = require('../db/models/User');
 require('dotenv');
 
-const FacebookStrategy = require('./facebookStrategy');
-const TwitterStrategy = require('./twitterStrategy');
-const GoogleStrategy = require('./googleStrategy');
+var FacebookStrategy = require('./facebookStrategy');
+var TwitterStrategy = require('./twitterStrategy');
+var GoogleStrategy = require('./googleStrategy');
+
+require('dotenv');
 
 FacebookStrategy();
 TwitterStrategy();
@@ -56,6 +59,8 @@ router.get(
     failureRedirect: '/login',
   }),
   (req, res) => {
+    console.log(req.user);
+
     const newUser = new Users({
       id: req.user.id,
       name: req.user.displayName,

@@ -9,7 +9,7 @@ module.exports = () => {
       {
         clientID: process.env.FACEBOOK_APP_ID,
         clientSecret: process.env.FACEBOOK_APP_SECRET,
-        callbackURL: 'http://localhost:8080/auth/facebook/callback',
+        callbackURL: '/auth/facebook/callback',
         profileFields: ['email', 'displayName', 'picture'],
       },
       function (accessToken, refreshToken, profile, cb) {
