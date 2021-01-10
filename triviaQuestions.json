@@ -399,11 +399,381 @@
     "question": "In S6E9 'Murder': 'There's been a murder in..' Where?",
     "options": ["Scranton", "Atlanta", "New York", "Savannah"],
     "answer": "Savannah"
-  }]
-}
-
-{
-    "question": "",
+  }, {
+    "question": "In S6E10 'Shareholder Meeting': Dwight dresses up as a character for Earth Day.  Name that character.",
+    "options": ["The Green Machine", "The Solar Son", "Energy Man", "Recyclops"],
+    "answer": "Recyclops"
+  }, {
+    "question": "In S6E11 'Scott's Tots': How many years have passed since Michael promised to pay for the Scott's Tots college educations?",
+    "options": ["5", "15", "10", "25"],
+    "answer": "10"
+  }, {
+    "question": "In S6E12 'Secret Santa': Who gave Erin the 12 Days of Christmas?",
+    "options": ["Jim", "Dwight", "Andy", "Michael"],
+    "answer": "Andy"
+  }, {
+    "question": "In S6E13 'The Banker': Who, in this episode, is Dunder Mifflin's highest ranking employee?",
+    "options": ["Ryan", "Holly", "David Wallace", "Michael"],
+    "answer": "Michael"
+  }, {
+    "question": "In S6E14 'Sabre': What famous actor is featured as himself in the Sabre orientation video?",
+    "options": ["Christian Slater", "Johnny Depp", "Tom Hanks", "Steve Carell"],
+    "answer": "Christian Slater"
+  }, {
+    "question": "In S6E15 'Manager and Salesman': What actress plays Sabre CEO Jo Bennett?",
     "options": ["Dwight", "Michael", "Meredith", "Creed"],
     "answer": "Creed"
-  }
+  }, {
+    "question": "In S6E15 'Manager and Salesman': What actress plays Sabre CEO Jo Bennett?",
+    "options": ["Roseanne Barr", "Kathy Bates", "Glenn Close", "Betty White"],
+    "answer": "Kathy Bates"
+  }, {
+    "question": "In S6E16 'The Delivery': What do Jim and Pam name their baby girl?",
+    "options": ["Cecelia Marie Halpert", "Cynthia Janine Halpert", "Sylvia Meemaw Halpert", "Sissy Amanda Halpert"],
+    "answer": "Cecelia Marie Halpert"
+  }, {
+    "question": "In S6E17 'St. Patrick's Day': What song does Dwight sing trying to guilt Jim about being back from his Paternity leave?",
+    "options": ["Papa was a Rolling Stone", "Cats in the Cradle", "Papa's Got a Brand New Bag", "Big Poppa"],
+    "answer": "Cats in the Cradle"
+  }, {
+    "question": "In S6E18 'New Leads': Who does Michael mistakenly believe lives in his condo complex?",
+    "options": ["Ryan Gossling", "Johnny Depp", "Bruce Willis", "Adam Levine"],
+    "answer": "Johnny Depp"
+  }, {
+    "question": "In S6E19 'Happy Hour': What clothing item transforms Michael into Date Mike?",
+    "options": ["A backwards golf cap", "A bandana", "A sumo suit", "A sequined glove"],
+    "answer": "A backwards golf cap"
+  }, {
+    "question": "In S6E20 'Secretary's Day': Erin finds out Andy had a relationship in the past with a coworker that he'd never told her about.  Who with?",
+    "options": ["Pam", "Meredith", "Angela", "Kelly"],
+    "answer": "Angela"
+  }, {
+    "question": "In S6E21 'Body Language': The episode begins with Michael trying to learn a foreign language.  Which?",
+    "options": ["German", "French", "Mandarin Chinese", "Spanish"],
+    "answer": "Spanish"
+  }, {
+    "question": "In S6E22 'The Cover-Up': Someone pranks Andy into believing there is a corporate conspiracy involving Sabre's smoking printers. Who was the pranker?",
+    "options": ["Jim", "Darryl", "Dwight", "Gabe"],
+    "answer": "Darryl"
+  }, {
+    "question": "In S6E23 'The Chump': Michael claims that if he had a gun with two bullets and found himself in a room with two infamous figures and Toby, he would shoot Toby twice.  Who are those figures?",
+    "options": ["Hitler & Bid Laden", "Stalin & Mussolini", "Hitler & Stalin", "Kim Jong Il & Saddam Hussein"],
+    "answer": "Hitler & Bid Laden"
+  }, {
+    "question": "In S6E24 Whistleblower': What new company is David Wallace involved in?",
+    "options": ["Suck it", "Staples", "Enron", "McDonald's"],
+    "answer": "Suck it"
+  }, {
+    "question": "In S7E1 'Nepotism': Who went to minority executive training over the summer?",
+    "options": ["Darryl", "Oscar", "Kelly", "Stanley"],
+    "answer": "Kelly"
+  }, {
+    "question": "In S7E2 'Counseling': Michael says he was probed.  By whom?",
+    "options": ["Toby", "Alf", "His mom", "Himself"],
+    "answer": "Alf"
+  }, {
+    "question": "In S7E3 'Andy's Play': What musical is Andy starring in?",
+    "options": ["Les Miserables", "Grease", "Dreamgirls", "Sweeney Todd"],
+    "answer": "Sweeney Todd"
+  }, {
+    "question": "In S7E4 'Sex Ed': Someone in The Office thinks they have herpes.  Who is it?",
+    "options": ["Phyllis", "Dwight", "Michael", "Meredith"],
+    "answer": "Michael"
+  }, {
+    "question": "In S7E5 'The Sting': What actor guest stars as Danny Cordray?",
+    "options": ["Timothy Olyphant", "Josh Duhamel", "Johnny Knoxville", "Ryan Reynolds"],
+    "answer": "Timothy Olyphant"
+  }, {
+    "question": "In S7E6 'Costume Contest': Who wins the costume contest?",
+    "options": ["Oscar", "Kelly", "Dwight", "Pam"],
+    "answer": "Oscar"
+  }, {
+    "question": "In S7E7 'Christening': What two Office members decide to join a church group headed for Mexico, but later change their minds?",
+    "options": ["Michael & Andy", "Michael & Dwight", "Andy & Erin", "Jim & Pam"],
+    "answer": "Michael & Andy"
+  }, {
+    "question": "In S7E8 'Viewing Party': The Office collects at Gabe's house to watch a hit TV show.  Name that show.",
+    "options": ["American Idol", "Glee", "Lost", "Dexter"],
+    "answer": "Glee"
+  }, {
+    "question": "In S7E9 'WUPHF.com': Who is the proprietor of WUPHF.com?",
+    "options": ["Andy", "Michael", "Creed", "Ryan"],
+    "answer": "Ryan"
+  }, {
+    "question": "In S7E10 'China': Michael says this: 'My whole life I believed America was number one.  Not America is number two. England is number two. China should be like ______' Finish the quote.",
+    "options": ["Three", "Five", "Eight", "Twelve"],
+    "answer": "Eight"
+  }, {
+    "question": "In S7E11 'Classy Christmas': Kelly chooses the gift from corporate to everyone in The Office.  What did she pick?",
+    "options": ["Personalized coffee mugs", "Shot glasses", "Robes", "Hello Kitty laptop sleeves"],
+    "answer": "Hello Kitty laptop sleeves"
+  }, {
+    "question": "In S7E12 'Ultimatum': What is Creed's New Year's resolution?",
+    "options": ["To read more books", "To gain 15 lbs", "To become a pop star", "To accomplish the perfect cartwheel"],
+    "answer": "To accomplish the perfect cartwheel"
+  }, {
+    "question": "In S7E13 'The Seminar': Who does Andy call a 'brilliant little bitch'?",
+    "options": ["Michael", "Gabe", "Pam", "Kelly"],
+    "answer": "Kelly"
+  }, {
+    "question": "In S7E14 'The Search': Where do Michael and Holly have their reunion kiss?",
+    "options": ["At a hot dog stand", "In the Office", "On the roof of a building", "At a Chinese restaurant"],
+    "answer": "On the roof of a building"
+  }, {
+    "question": "In S7E15 'PDA': What does Dwight say would be his perfect Valentine's Day?",
+    "options": ["Flowers, candy, violinist, diamonds...", "Pizza, soda, the moon, someone to share it with", "A night with Angela", "Sitting at home with his 3 cell phones, fielding desperate calls from people who want to buy one of the 50 restaurant reservations he'd made 6 months prior"],
+    "answer": "Sitting at home with his 3 cell phones, fielding desperate calls from people who want to buy one of the 50 restaurant reservations he'd made 6 months prior"
+  }, {
+    "question": "In S7E16 'Threat Level Midnight': Who is Michael Scarn's late wife?",
+    "options": ["Catherine Zeta Jones", "Eva Longoria", "Pam", "Teri Hatcher"],
+    "answer": "Catherine Zeta Jones"
+  }, {
+    "question": "In S7E17 'Todd Packer': What Office rivals join forces to prank and get rid of Todd Packer?",
+    "options": ["Michael & Toby", "Angela & Pam", "Angela & Kevin", "Jim & Dwight"],
+    "answer": "Jim & Dwight"
+  }, {
+    "question": "In S7E18 'Garage Sale': Who gets engaged?",
+    "options": ["Ryan & Kelly", "Pam & Jim", "Michael & Holly", "Dwight & Angela"],
+    "answer": "Michael & Holly"
+  }, {
+    "question": "In S7E19 'Training Day': Who plays DeAngelo Vickers?",
+    "options": ["Jimmy Fallon", "Will Ferrell", "Conan O'Brien", "Dan Aykroyd"],
+    "answer": "Will Ferrell"
+  }, {
+    "question": "In S7E20 'Michael's Last Dundies': The Office sings Michael a goodbye parody version of a song from what famous musical?",
+    "options": ["Rent", "Grease", "Cats", "Sweeney Todd"],
+    "answer": "Rent"
+  }, {
+    "question": "In S7E21 'Goodbye Michael': What is Michael Scott's very last audible joke?",
+    "options": ["I actually don't understand deathbeds. I mean, who would buy that?", "That's what she said.", "Goodbyes Stink.", "Catch you guys on the flippity flip."],
+    "answer": "I actually don't understand deathbeds. I mean, who would buy that?"
+  }, {
+    "question": "In S7E22 'The Inner Circle': DeAngelo gets injured at the end of the episode doing what?",
+    "options": ["Playing with the bailer", "He's hit by a car in the parking lot", "He gets shot by Dwight", "Playing basketball in the warehouse"],
+    "answer": "Playing basketball in the warehouse"
+  }, {
+    "question": "In S7E23 'Dwight K. Schrute, (Acting) Manager': Dwight fires a gun in the Office near one of his coworkers, causing some minor hearing damage.  Name that coworker.",
+    "options": ["Stanley", "Andy", "Erin", "Jim"],
+    "answer": "Andy"
+  }, {
+    "question": "In S7E24 'Search Committee': Who is the manager of the Scranton branch in the beginning of the episode?",
+    "options": ["Dwight", "Jim", "Stanley", "Creed"],
+    "answer": "Creed"
+  }, {
+    "question": "In S8E1 'The List': Whose new catch phrase is 'And shove it up your butt!'?",
+    "options": ["Gabe", "Robert California", "Stanley", "Creed"],
+    "answer": "Stanley"
+  }, {
+    "question": "In S8E2 'The Incentive': Who gets a tattoo?",
+    "options": ["Andy", "Jim", "Erin", "Kelly"],
+    "answer": "Andy"
+  }, {
+    "question": "In S8E3 'Lotto': What does Darryl say he's allergic to?",
+    "options": ["Andy", "Soy", "Peanuts", "Eggs"],
+    "answer": "Soy"
+  }, {
+    "question": "In S8E4 'Garden Party': Pam is pregnant and reveals what her and Jim are going to name their new baby.  What's the name?",
+    "options": ["Michael Scott", "Phillip", "CeCe", "Jim Jr."],
+    "answer": "Phillip"
+  }, {
+    "question": "In S8E5 'Spooked': What is Creed afraid of?",
+    "options": ["Robert California", "Ferris Wheels", "Beans", "Snakes"],
+    "answer": "Snakes"
+  }, {
+    "question": "In S8E6 'Doomsday': Andy plays a song at the end of each day.  Name that song.",
+    "options": ["Hello, Goodbye", "Closing Time", "Goodbye, My Lover", "Jump Around"],
+    "answer": "Closing Time"
+  }, {
+    "question": "In S8E7 'Pam's Replacement': Who is Pam's replacement?",
+    "options": ["Katy", "Cathy", "Clark", "Pete"],
+    "answer": "Cathy"
+  }, {
+    "question": "In S8E8 'Gettysburg': What color are the 'DM does GB' hats everyone wears?",
+    "options": ["Pink", "Blue", "Green", "Yellow"],
+    "answer": "Pink"
+  }, {
+    "question": "In S8E9 'Mrs. California': What actress plays Mrs. California?",
+    "options": ["Diane Lane", "Maura Tierney", "Sarah Jessica Parker", "Brooke Shields"],
+    "answer": "Maura Tierney"
+  }, {
+    "question": "In S8E10 'Christmas Wishes': Who had scoliosis as a child?",
+    "options": ["Dwight", "Andy", "Val", "Erin"],
+    "answer": "Erin"
+  }, {
+    "question": "In S8E11 'Trivia': What team won the trivia contest?",
+    "options": ["The Einsteins", "A-Team", "The Backups", "Aesop's Foibles"],
+    "answer": "The Einsteins"
+  }, {
+    "question": "In S8E12 'Pool Party': Who is the first to get naked?",
+    "options": ["Meredith", "Andy", "Robert California", "Creed"],
+    "answer": "Robert California"
+  }, {
+    "question": "In S8E13 'Jury Duty': Who has jury duty?",
+    "options": ["Stanley", "Jim", "Andy", "Pam"],
+    "answer": "Jim"
+  }, {
+    "question": "In S8E14 'Special Project': Who is plotting to break up Jim and Pam's marriage?",
+    "options": ["Dwight", "Cathy", "Andy", "Angela"],
+    "answer": "Cathy"
+  }, {
+    "question": "In S8E15 'Tallahassee': Who's got 'Nine lives and a nine inch...'?",
+    "options": ["Robert California", "Gabe", "Andy", "Todd Packer"],
+    "answer": "Todd Packer"
+  }, {
+    "question": "In S8E16 'After Hours': What, according to Dwight, is English peoples' main use today?",
+    "options": ["Giving something for America to look up to", "Judging American talent", "Caving in to the U.N.", "Making shepherd's pie"],
+    "answer": "Judging American talent"
+  }, {
+    "question": "In S8E17 'Test the Store': What is the new Sabre tablet device called?",
+    "options": ["The Triangle", "The Sabre Tooth", "The Pyramid", "The sPad"],
+    "answer": "The Pyramid"
+  }, {
+    "question": "In S8E18 'Last Day in Florida': What two Office dads compete for Kevin's cookie business?",
+    "options": ["Jim & Darryl", "Jim & Toby", "Toby & Darryl"],
+    "answer": "Toby & Darryl"
+  }, {
+    "question": "In S8E19 'Get the Girl': Who briefly raced a formula one car, for the slowest three laps ever recorded?",
+    "options": ["Andy", "Nellie", "Robert California", "Erin"],
+    "answer": "Nellie"
+  }, {
+    "question": "In S8E20 'Welcome Party': The Office tries to remember whether Stanley does or does not have a moustache. Settle the argument.",
+    "options": ["Stanley does have a moustache", "Stanley does not have a moustache"],
+    "answer": "Stanley does have a moustache"
+  }, {
+    "question": "In S8E21 'Angry Andy': Which of these are NOT one of the 12 cliches Phyllis says every time it rains?",
+    "options": ["Nobody knows how to drive in the rain", "The plants are going to love this", "It's really coming down out there", "I actually sleep better when it's raining"],
+    "answer": "It's really coming down out there"
+  }, {
+    "question": "In S8E22 'Fundraiser': What common food item had Nellie never eaten before?",
+    "options": ["Hot Dogs", "Hamburgers", "Popcorn", "Tacos"],
+    "answer": "Tacos"
+  }, {
+    "question": "In S8E23 'Turf War': What does Robert California compare shaping a company to?",
+    "options": ["Training a Geisha", "Attending Burning Man", "Learning to use nunchucks", "Making love to a woman"],
+    "answer": "Training a Geisha"
+  }, {
+    "question": "In S8E24 'Free Family Portrait Studio': Andy convinces someone to buy back Dunder Mifflin from Sabre.  Who?",
+    "options": ["Michael", "Jan", "David Wallace", "His parents"],
+    "answer": "David Wallace"
+  }, {
+    "question": "In S9E1 'New Guys': Where have Kelly & Ravi (and Ryan) moved?",
+    "options": ["Miami, Florida", "Miami University in Ohio", "Philidelphia", "New York"],
+    "answer": "Miami University in Ohio"
+  }, {
+    "question": "In S9E2 'Roy's Wedding': What does Creed say is 'the worst'?",
+    "options": ["Justin Beiber", "Michael being gone", "The Taliban", "Can openers"],
+    "answer": "The Taliban"
+  }, {
+    "question": "In S9E3 'Andy's Ancestry': What was the first name of Jim and Pam's asian actor friend who pretended to be Jim one morning as a prank on Dwight?",
+    "options": ["Steve", "John", "Joe", "Matthew"],
+    "answer": "Steve"
+  }, {
+    "question": "In S9E4 'Work Bus': What kind of pies does Pam NOT like?",
+    "options": ["Apple", "Blueberry", "Cherry", "Rhubarb"],
+    "answer": "Rhubarb"
+  }, {
+    "question": "In S9E5 'Here Comes Treble': What comedian played Broccoli Rob?",
+    "options": ["John Stewart", "Steven Colbert", "Conan O'Brien", "Craig Ferguson"],
+    "answer": "Steven Colbert"
+  }, {
+    "question": "In S9E6 'The Boat': Andy's family is in trouble because his dad took off with a younger woman leaving the Bernards in financial ruin.  Where did his dad go?",
+    "options": ["Greece", "The Bahanamas", "Argentina", "South Africa"],
+    "answer": "Argentina"
+  }, {
+    "question": "In S9E7 'The Whale': Who becomes Jan's new assistant in exchange for her giving Dunder Mifflin the Scranton White Pages' business?",
+    "options": ["Pete", "Clark", "Hunter", "Nate"],
+    "answer": "Clark"
+  }, {
+    "question": "In S9E8 'The Target': Angela figures out that someone has been sleeping with her husband, the Senator.  Who?",
+    "options": ["Meredith", "Kevin", "Erin", "Oscar"],
+    "answer": "Oscar"
+  }, {
+    "question": "In S9E9 'Dwight Christmas': What Christmas movie does Pete have memorized line for line?",
+    "options": ["A Christmas Story", "Home Alone", "Die Hard", "Christmas Vacation"],
+    "answer": "Die Hard"
+  }, {
+    "question": "In S9E10 'Lice': Who shaves their head?",
+    "options": ["Jan", "Pete", "Creed", "Meredith"],
+    "answer": "Meredith"
+  }, {
+    "question": "In S9E11 'Suit Warehouse': What is the name of Jim's new company that Darryl is interviewing for?",
+    "options": ["Athlead", "Sports R Us", "Philly Sports Management", "PBJ Sports Marketing"],
+    "answer": "Athlead"
+  }, {
+    "question": "In S9E12 'Customer Loyalty': Who comforts Pam when she cries after having a fight with Jim?",
+    "options": ["Jim", "Andy", "Kevin", "Brian the boom guy"],
+    "answer": "Brian the boom guy"
+  }, {
+    "question": "In S9E13 'Junior Salesmen': Who, by the end of the episode, becomes Pam's new desk mate?",
+    "options": ["Andy", "Rolf", "Erin", "Clark"],
+    "answer": "Clark"
+  }, {
+    "question": "In S9E14 'Vandalism': Pam's warehouse mural is defaced. Who did it?",
+    "options": ["Nate", "Frank", "Brian the boom guy", "Jim"],
+    "answer": "Frank"
+  }, {
+    "question": "In S9E15 'Couple's Discount': Who comes back after a long absence?",
+    "options": ["Michael", "Jan", "David Wallace", "Andy"],
+    "answer": "Andy"
+  }, {
+    "question": "In S9E16 'Moving On': What is the name of the company Pam interviews for?",
+    "options": ["Simon Realty", "Saul Goodman Associates", "Dunder Mifflin, Philidelphia", "Scranton White Pages"],
+    "answer": "Simon Realty"
+  }, {
+    "question": "In S9E17 'The Farm': Whose funeral has Dwight's family gathered for?",
+    "options": ["Mose's", "Aunt Shirley's", "Michael Scott's", "Grandpa Heinrich's"],
+    "answer": "Aunt Shirley's"
+  }, {
+    "question": "In S9E18 'Promos': Who is TexasPoonTappa?",
+    "options": ["Nellie", "Some random internet person", "Andy", "Toby"],
+    "answer": "Nellie"
+  }, {
+    "question": "In S9E19 'Stairmageddon': Who shoots Stanley with a tranquilizer dart at the END of the episode?",
+    "options": ["Dwight", "Clark", "Stanley", "Mose"],
+    "answer": "Stanley"
+  }, {
+    "question": "In S9E20 'Paper Airplanes': What does Creed throw during the paper airplane contest?",
+    "options": ["A Paper Airplane", "Himself", "A nickle", "A melon"],
+    "answer": "A melon"
+  }, {
+    "question": "In S9E21 'Livin' The Dream': How does Andy burn his final bridge with Dunder Mifflin, allowing him to pursue his dream of stardom?",
+    "options": ["He flips off David Wallace", "He gropes Toby's weiner", "He defecates on David Wallace's car", "He steals from Creed"],
+    "answer": "He defecates on David Wallace's car"
+  }, {
+    "question": "In S9E22 'A.A.R.M.': Who becomes the Assistant to the Assistant to the Regional Manager?",
+    "options": ["Dwight", "Clark", "Erin", "Jim"],
+    "answer": "Dwight"
+  }, {
+    "question": "In S9E23 'Finale': Who retired and moved to Florida?",
+    "options": ["Creed", "Phyllis", "Stanley", "Jim & Pam"],
+    "answer": "Stanley"
+  }, {
+    "question": "In S7E11 'Classy Christmas': What gift did Angela give Creed?",
+    "options": ["A kitty calendar", "A multi-pack of underarm deodorant", "Two tickets to see the band Creed perform", "A $20 gift certificate to the Scranton Skillet"],
+    "answer": "A multi-pack of underarm deodorant"
+  }, {
+    "question": "In S2E11 'Booze Cruise': Michael treats the office staff to a 'booze cruise', in freezing January weather, so he can perform a motivational speech. When Michael becomes frustrated that nobody is listening to him, what false allegation does he exclaim to get everyone's attention?",
+    "options": ["The sky is falling", "Dwight fell overboard", "The booze is gone", "The ship is sinking"],
+    "answer": "The ship is sinking"
+  }, {
+    "question": "In S3E22 'Beach Games': Who was the only person to SUCCESSFULLY run barefoot across the hot coals?",
+    "options": ["Pam", "Michael", "Creed", "Phyllis"],
+    "answer": "Pam"
+  }, {
+    "question": "In S3E13 'The Return': What ringtone repeatedly played on Andy's cell phone when Jim hid it in the ceiling at the office?",
+    "options": ["Another Brick in the Wall", "867-5309/Jenny", "Can't Touch This", "Rockin' Robin"],
+    "answer": "Rockin' Robin"
+  }, {
+    "question": "In S7E3 'Andy's Play': When Andy was inviting everyone at the office to see him perform in the live show 'Sweeney Todd,' Dwight declined by saying:",
+    "options": ["I'll be busy washing my hair", "The beets are ripe at Schrute Farms, and beets wait for no man", "Last time I went to the theater a man dressed as a cat sat on my lap", "It is illogical to observe humans attempt to dance and sing with merriment"],
+    "answer": "Last time I went to the theater a man dressed as a cat sat on my lap"
+  }, {
+    "question": "In S7E1 'Classy Christmas': When Dwight was brutally pummelling Jim with snowballs, he warned Jim that he had a _____ for everybody in the office?",
+    "options": ["Snowball", "Bottle of beet juice", "Mask", "Wig"],
+    "answer": "Wig"
+  }, {
+    "question": "In S2E10 'Christmas Party': What unexpected, homemade secret santa gift did Michael receive from Phyllis that prompted 'Yankee Swap', a game which enabled everyone to steal someone else's gift?",
+    "options": ["Oven mitt", "Fruit cake", "Dunder-Mifflin aluminum foil sculpture", "Babe Ruth photo tree ornament"],
+    "answer": "Oven mitt"
+  }]
+}
