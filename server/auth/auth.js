@@ -41,15 +41,19 @@ router.get(
     });
     res.cookie('HayKingId', req.user.id);
 
-    Users.findOne({ id: newUser.id }).then((data) => {
-      if (data) {
-        res.redirect('/home');
-      } else {
-        newUser.save().then(() => {
+    Users.findOne({ id: newUser.id })
+      .then((data) => {
+        if (data) {
           res.redirect('/home');
-        });
-      }
-    });
+        } else {
+          newUser.save().then(() => {
+            res.redirect('/home');
+          });
+        }
+      })
+      .catch((err) => {
+        console.warn(err);
+      });
   }
 );
 
@@ -69,17 +73,21 @@ router.get(
     });
     res.cookie('HayKingId', req.user.id);
 
-    Users.findOne({ id: newUser.id }).then((data) => {
-      if (data) {
-        res.redirect('/home');
-        userInfo = data;
-      } else {
-        newUser.save().then(() => {
-          userInfo = newUser;
+    Users.findOne({ id: newUser.id })
+      .then((data) => {
+        if (data) {
           res.redirect('/home');
-        });
-      }
-    });
+          userInfo = data;
+        } else {
+          newUser.save().then(() => {
+            userInfo = newUser;
+            res.redirect('/home');
+          });
+        }
+      })
+      .catch((err) => {
+        console.warn(err);
+      });
   }
 );
 
@@ -97,17 +105,21 @@ router.get(
     });
     res.cookie('HayKingId', req.user.id);
 
-    Users.findOne({ id: newUser.id }).then((data) => {
-      if (data) {
-        res.redirect('/home');
-        userInfo = data;
-      } else {
-        newUser.save().then(() => {
-          userInfo = newUser;
+    Users.findOne({ id: newUser.id })
+      .then((data) => {
+        if (data) {
           res.redirect('/home');
-        });
-      }
-    });
+          userInfo = data;
+        } else {
+          newUser.save().then(() => {
+            userInfo = newUser;
+            res.redirect('/home');
+          });
+        }
+      })
+      .catch((err) => {
+        console.warn(err);
+      });
   }
 );
 

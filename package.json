@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "cheerio": "^1.0.0-rc.5",
     "compass-mixins": "^0.12.10",
     "cors": "^2.8.5",
     "css-loader": "^5.0.1",
@@ -24,10 +27,12 @@
     "passport-facebook": "^3.0.0",
     "passport-google-oauth": "^2.0.0",
     "passport-twitter": "^1.0.4",
+    "puppeteer": "^5.5.0",
     "react": "^17.0.1",
     "react-axios": "^2.0.4",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
+    "request": "^2.88.2",
     "style-loader": "^2.0.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"

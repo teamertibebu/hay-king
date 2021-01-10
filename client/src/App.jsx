@@ -11,16 +11,18 @@ const App = () => {
   const [isAuth, setIsAuth] = useState(true);
 
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Login />
-        </Route>
-        <Route path="/home">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
+    <>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Login />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 };
 
